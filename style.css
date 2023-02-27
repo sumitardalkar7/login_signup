@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.row {
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 12px 12px 27px;    
+    width: auto;
+    height: 37.5rem;
+
+}
+
+img{
+    width: 120%;
+    height: 37.5rem;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+/* .login img{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+} */
+
+.login h1{
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+.inp{
+    height: 50px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-radius: 60px;
+    box-shadow: -26px -19px 30px -19px rgba(0,0,0,0.35);
+    -webkit-box-shadow: -26px -19px 30px -19px rgba(0,0,0,0.35);
+    -moz-box-shadow: -26px -19px 30px -19px rgba(0,0,0,0.35);
+}
+
+.btn1{
+    width: 200px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 60px;
+    font-weight: 600;
+    background-color: rgb(143, 86, 86);
+    color: white;
+}
+.btn1:hover{
+    background-color: rgb(220, 170, 78);
+    transition: 0.5s;
+}
+.fa-facebook{
+    width: 45px;
+
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3b5998;
+    border-radius: 50%;
+    color:whitesmoke;
+    text-decoration: none;
+    font-size: 25px;
+   
+  
+}
+.fa-facebook:hover{
+    transform: scale(1.2);
+
+}
+.fa-instagram:hover{
+    transform: scale(1.2);
+
+}
+.fa-instagram{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(
+        circle farthest-corner at 35% 90%,
+        #fec564,
+        transparent 50%
+      ),
+      radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+      radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+      radial-gradient(
+        ellipse farthest-corner at 20% -50%,
+        #5258cf,
+        transparent 50%
+      ),
+      radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+      radial-gradient(
+        ellipse farthest-corner at 60% -20%,
+        #893dc2,
+        transparent 50%
+      ),
+      radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+      linear-gradient(
+        #6559ca,
+        #bc318f 30%,
+        #e33f5f 50%,
+        #f77638 70%,
+        #fec66d 100%
+      );
+  
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+  
+}
